@@ -1,0 +1,82 @@
+.game {
+  width: 1500px;
+  height: 720px;
+  margin: auto;
+  background-image: url(../img/forest.jpg);
+  background-size: cover;
+  background-position: center;
+  animation: moveLeft 3s linear infinite;
+}
+
+@keyframes moveLeft {
+  from{
+    background-position: 0 0;
+  }
+  to {
+    background-position: 100% 0;
+  }
+}
+
+#bear {
+  width: 240px;
+  height: 200px;
+  background-image: url(../img/bear.png);
+  background-size: 240px 200px;
+  position: relative;
+  top: 545px;
+  left: 120px;
+}
+
+#ghost {
+  width: 180px;
+  height: 180px;
+  background-image: url(../img/ghost.png);
+  background-size: 180px 180px;
+  position: relative;
+  top: 370px;
+  left: 1280px;
+  animation: ghostMov 1.8s infinite linear;
+}
+
+@keyframes ghostMov {
+  0% {
+    left: 1500px;
+  }
+  100% {
+    left: -200px;
+  }
+}
+
+.jump {
+ animation: bearJump 0.3s linear;
+}
+
+@keyframes bearJump {
+  0% {
+    top: 250px;
+  }
+  30% {
+    top: 150px;
+  }
+  50% {
+    top: 80px;
+  }
+  80% {
+    top: 150px;
+  }
+  100% {
+    top: 250px;
+  }
+}
+
+#score {
+  background-color: rgba(255, 255, 0, 0.6);
+  text-align: center;
+  max-width: 150px;
+  max-height: 40px;
+  font-size: xx-large;
+  font-family: serif;
+  margin-left: 10px;
+  margin-top: 295px;
+  position: relative;
+}

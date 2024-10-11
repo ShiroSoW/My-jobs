@@ -1,0 +1,353 @@
+body {
+	font: 15px/1.5 Arial, Helvetica, sans-serif;
+	margin: 0;
+	background-color: #fff;
+}
+
+/* Header */
+header {
+    position: fixed;
+    width: 100%;
+    box-shadow: 0px 7px 14px -5px rgba(0, 0, 0, 0.2);
+}
+
+nav {
+    font-weight: 700;
+    height: 86px;
+    background: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 6.6%;
+    
+}
+
+nav #logo {
+    max-width: 20%;
+}
+
+nav #logo img {
+    max-width: 100%;
+}
+
+/* nav #logo a {
+    color: #000;
+    text-decoration: none;
+    font-size: x-large;
+} */
+
+nav .navigation-menu {
+    display: flex;
+    justify-content: right;
+    margin: 0;
+    padding: 0;
+}
+
+nav .navigation-menu li {
+    display: flex;
+}
+
+nav .navigation-menu a {
+    font-size: 16px;
+    text-decoration: none;
+    padding: 0 20px;
+    color: #000;
+}
+
+/* showcase */
+main #showcase {
+    /* padding: 280px 120px; */
+    padding: 18.5% 8%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/showcase.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+main #showcase h2 {
+    text-transform: uppercase;
+    font-size: xx-large;
+    margin-right: 20%;
+    color: #fff;
+}
+
+main #showcase p {
+    margin-right: 42%;
+    font-size: large;
+    color: #fff;
+}
+
+/* about */
+#about .box {
+    display: flex;
+    display: inline-block;
+    width: 460px;
+    padding: 2.6% 0 0 8%;
+    box-sizing: border-box;
+    overflow: hidden;
+    min-height: 200px;
+}
+
+#about .box img {
+    size: 20%;
+    margin-left: -16%;
+    float: left;
+    padding: 8% 6% 10% 6%;
+}
+
+#about .box h3 {
+    /* max-width: 400px; */
+    margin: 0;
+    font-size: 17px;
+    padding: 4% 0;
+} 
+
+#about .box p {
+    line-height: 19px;
+    font-size: medium;
+    margin: 0;
+}
+
+#about .ass {
+    background-color: lightgray;
+    padding: 0.7% 2.8% 3.2% 6.6%;
+}
+
+#about .ass h3 {
+    color: rgb(1, 1, 104);
+    font-size: 48px;
+}
+
+#about .ass h4 {
+    font-size: 28px;
+}
+
+#about .ass p {
+    max-width: 960px;
+    font-size: 20px;
+}
+
+/* services */
+#services {
+    padding: 0 6.6%;
+}
+
+#services .os h3{
+    font-size: 50px;
+    text-align: center;
+    margin: 0;
+    padding: 4% 0;
+}
+
+#services .service-1, .service-3{
+    display: flex;
+    flex-direction: row;
+}
+
+#services .service-2, .service-4{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+#services .content-1, .content-3 {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    padding-left: 7.6%;
+}
+
+#services .content-2, .content-4 {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    padding-right: 7.2%;
+}
+
+#services .content-1, .content-2, .content-3, .content-4, h3 {
+    font-size: xx-large;
+    justify-content: center;
+}
+
+#services .content-1, .content-2, .content-3, .content-4, p,ul {
+    font-size: large;
+    justify-content: center;
+}
+
+/* contact */
+#contact {
+    background-color: lightgray;
+    padding: 4% 0;
+}
+
+#contact h3 {
+    text-transform: uppercase;
+    font-size: 50px;
+    text-align: center;
+    margin: 0;
+}
+
+#contact p {
+    text-align: center;
+    font-size: 24px;
+    margin: 0;
+}
+
+#contact a {
+    text-decoration: none;
+    color: #000;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-size: 24px;
+}
+
+/* footer */
+footer .fi{
+    background-color: #0C283B;
+    color: #fff;
+    padding: 0 6% 0 1.8%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+footer #f_logo {
+    max-width: 20%;
+}
+
+footer #f_logo img {
+    max-width: 100%;
+}
+
+footer #f_text p {
+    margin: 0;
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+/* header */
+    header nav {
+        padding: 0;
+    }
+
+    header #logo {
+        max-width: 48%;
+    }
+
+    header .navigation-menu {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: left;
+        padding: 0;
+        margin: 0;
+    }
+
+    header .navigation-menu li {
+        padding: 0;
+    }
+
+/* main */
+    main h1, h2, h3, h4, p, ul, li {
+        padding: 0;
+        margin: 0;
+        text-align: center;
+    }
+
+/* showcase */
+    main #showcase {
+        padding: 60% 4% 40% 4%;
+        background-position: 80%;
+    }
+
+    main #showcase h2 {
+        margin: 0;
+        text-align: center;
+    }
+
+    main #showcase p {
+        padding-top: 10%;
+        margin: 0;
+        text-align: center;
+    }
+
+/* about */
+    main #about .box {
+        padding: 8% 16%;
+        margin: 0;
+        max-width: 100%;
+    }
+
+    main #about .box p {
+        padding-left: 30%;
+    }
+
+    main #about .ass, h3, h4 {
+        text-align: center;
+    }
+
+    main #about .ass p {
+        margin-top: 4%;
+        text-align: center;
+    }
+
+    main #about .ass {
+        padding: 16%;
+    }
+
+/* services */
+    main #services {
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+    }
+
+    main #services .os {
+        padding: 4%;
+    }
+
+    main #services .service-1, .service-2, .service-3, .service-4 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    main #services .content-1, .content-2, .content-3, .content-4 {
+        padding: 0;
+        margin: 0;
+    }
+
+    main #services .content-1, .content-2, .content-3, .content-4, h3{
+        padding: 4%;
+        text-align: center;
+    }
+
+    main #services .content-1, .content-3, p {
+        margin: 0;
+        padding: 4%;
+        text-align: center;
+    }
+
+    main #services .content-2, .content-3, .content-4, ul {
+        padding: 4%;
+    }
+
+    main #services .content-2, .content-3, .content-4, li {
+        padding: 4%;
+        text-align: left;
+    }
+
+    main #services .service-2, .content-2, img{
+        display: flex;
+        flex-direction: column;
+    }
+
+/* contact */
+    main #contact {
+        padding: 10% 0;
+    }
+
+    main #contact .container p {
+        padding: 0;
+    }
+
+}
