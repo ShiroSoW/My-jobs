@@ -51,7 +51,7 @@ nav .navigation-menu a {
 main #showcase {
     /* padding: 280px 120px; */
     padding: 18.5% 8%;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('./images/showcase.jpeg');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/showcase.jpeg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -182,19 +182,19 @@ main #showcase a {
 }
 
 #services .content-1 {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/images/box-1.jpeg');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/box-1.jpeg');
     background-repeat: no-repeat;
 }
 #services .content-2 {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/images/box-2.jpeg');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/box-2.jpeg');
     background-repeat: no-repeat;
 }
 #services .content-3 {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/images/box-3.jpeg');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/box-3.jpeg');
     background-repeat: no-repeat;
 }
 #services .content-4 {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/images/box-4.jpeg');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/box-4.jpeg');
     background-repeat: no-repeat;
 }
 
